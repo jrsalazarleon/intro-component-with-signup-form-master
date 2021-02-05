@@ -1,0 +1,22 @@
+@import "/css/components/main.css";
+@import "/css/base/variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import "/css/base/reset.min.css";
+
+#root {
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 1440px;
+    min-height: 100vh;
+    background-color: var(--red);
+    background-image: url(/resources/png/bg-intro-mobile.png);
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    #root {
+        background-image: url(/resources/png/bg-intro-desktop.png);
+        background-repeat: no-repeat;
+    }
+}
+
